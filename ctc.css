@@ -100,7 +100,251 @@ nav ul ul ul {left: 100%;
     text-align: center;
 }
 
+.getin{
+    text-align: center;
+}
+
+.getin h2{
+    margin-top: 100px; margin-right: 900px;
+}
 
 
+.getin .git {
+    margin-top: 20px; margin-right: 450px; width: 700px; height: 250px; margin-left: 300px;
+}
+
+.getin .name {
+    margin-top: 40px; margin-right: 96px; width: 300px; height: 40px; margin-left: 140px;
+}
+
+.getin .email2 {
+    margin-top: 20px; margin-right: 290px; width: 300px; height: 40px;
+}
+
+.getin .entersubject {
+    margin-top: 40px; margin-right: 150px; width: 710px; height: 40px;
+}
+
+.send-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid red;
+    font-size: 15px;
+    background-color: red;
+    cursor: pointer;
+    padding: 10px 20px;
+    float: left;
+    margin-left: 28%;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.lk .home img{ float: right; position: relative; margin-right: 300px; margin-top: -380px;
+}
+
+.lk .home h1 {
+    font-size: 15px; float: right; margin-top: -380px; margin-right: 110px;
+}
+
+.lk .home h2 {
+    font-size: 15px; float: right; margin-top: -350px; margin-right: 130px;
+}
+
+.lk .phone img{ float: right; position: relative; margin-right: 300px; margin-top: -300px;
+}
+
+.lk .phone h1 {
+    font-size: 15px; float: right; margin-top: -300px; margin-right:160px;
+}
+
+.lk .phone h2 {
+    font-size: 15px; float: right; margin-top: -270px; margin-right:110px;
+}
+
+.lk .mail img{ float: right; position: relative; margin-right: 300px; margin-top: -220px;
+}
+
+.lk .mail h1 {
+    font-size: 15px; float: right; margin-top: -230px; margin-right: 120px;
+}
+
+.lk .mail h2 {
+    font-size: 15px; float: right; margin-top: -200px; margin-right: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.foot{
+    margin-top: 100px;
+    height: 570px;
+    width:100%;
+    background-color: #2b1141;
+    float: left;
+}
+               
+.ftravelo{
+    width: 240px;
+    color: gray;
+    padding-top: 100px;
+    padding-left: 100px;
+    float: left;
+    padding-right: 50px;
+}
+               
+.footatas{
+    padding-bottom: 50px;
+}
+               
+.footatas img{
+    width: 170px;
+}
+               
+.foottengah .text p{
+    margin-bottom: 20px;
+    font-size: 17px;
+    color: silver;
+    text-decoration: none;
+    list-style: none;
+}
+               
+.foottengah .link p{
+    margin-bottom: 20px;
+    font-size: 17px;
+    color: silver;
+    text-decoration: none;
+    list-style: none;
+    transition : color 1s;
+}
+               
+.foottengah .link p:hover{
+    margin-bottom: 20px;
+    font-size: 17px;
+    color: red;
+    text-decoration: none;
+    list-style: none;
+}
+               
+.logobawah img{
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    float: left;
+    margin-top: 29px;
+    margin-left: 15px;
+}
+               
+.company{
+    padding-top:110px;
+    margin-left: 50px;
+    padding-right: 30px;
+    float: left;
+}
+               
+.company h1{
+    color: white;
+    font-size: 26px;
+    margin-bottom: 50px;
+}
+               
+.company p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    list-style: none;
+    color: silver;
+}
+               
+.footpopular{
+    padding-top:110px;
+    margin-left: 50px;
+    float: left;
+}
+               
+.footpopular p{
+    text-decoration: none;
+    list-style: none;
+    color: silver;
+}
+               
+.footpopular .atas p{
+    color: white;
+    font-size: 26px;
+    margin-bottom: 50px;
+}
+               
+.footpopular .bkiri{
+    float: left;
+    padding-right: 50px;
+}
+               
+.footpopular .bkiri p{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+               
+.footpopular .bkanan{
+    float: left;
+}
+               
+.footpopular .bkanan p{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+               
+.ig{
+    padding-top:110px;
+    margin-left: 90px;
+    float: left;
+}
+               
+.ig p{
+    text-decoration: none;
+    list-style: none;
+    color: silver;
+}
+               
+.ig .igatas p {
+    color: white;
+    font-size: 26px;
+    margin-bottom: 50px;
+}
+               
+.ig img{
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    border-radius: 30px;
+}
+.copyright {
+    position: absolute;
+    display: block;
+    width: 1600px;
+    margin-top: 500px;
+    margin-left: 160px;
+    border-top: 2px solid black;
+   
+}
+   
+.copyright p {
+    color: white;
+    margin-top : 20px;
+    margin-left: 21%;
+    font-size: 18px;
+}
+   
+.copyright a {
+    margin-left: 5px;
+    text-decoration: none;
+    color: red;
+}
 
 
