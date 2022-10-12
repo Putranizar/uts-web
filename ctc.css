@@ -1,0 +1,106 @@
+* {padding: 0; margin: 0;}
+
+.container {margin: auto;}
+
+/* ini css menu */
+* {padding: 0; margin: 0; color: black;}
+
+.logo img {width: 125px; 
+    height: 40px; 
+    float :left; 
+    margin : 20px 0 0 20px;
+}
+
+nav ul li  {float: left; 
+    list-style: none; 
+    margin: 20px 0 0 20px; 
+    background: white;
+}
+nav ul li a {margin-right: 15px;
+            text-decoration: none;
+            padding: 3px 15px;
+}
+
+nav ul li ul {display: none;}
+
+nav ul li:hover> ul {display: block;}
+
+nav {position: relative; 
+    height: 40px; 
+    line-height: 40px;
+}
+nav ul li ul {position: absolute;}
+
+nav ul li ul li {float: none; 
+    position: relative;
+    margin: 3px;
+}
+
+nav ul li:hover {background: white;}
+nav ul li a:hover {color: black;}
+
+nav ul ul ul {left: 100%; 
+    top: 0; 
+    width: 200px;
+}
+
+.logokanan .serch {float:right; 
+    margin: 30px 50px 0 0
+}
+.logokanan .instagram {float:right; 
+    margin: 30px 50px 0 0
+}
+.logokanan .google {float:right; 
+    margin: 30px 50px 0 0
+}
+.logokanan .fb {float:right; 
+    margin: 30px 50px 0 0
+}
+
+.logokanan .instagram:hover {
+    width: 20px; 
+    height: 20px; 
+    float: right;}
+
+
+
+.text-box{
+    background-image: url(images/pemandangan1.jpg);
+    width: 100%;
+    min-height: 100vh;
+    background-size:cover ;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-box h2{
+    width: 90%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    font-style: italic;
+}
+
+.text-box p {
+    font-size: 30px;
+    margin-top: 20px;
+    color: white;
+    font-style: italic;
+}
+
+
+.gmaps {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+
+
