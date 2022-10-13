@@ -1,0 +1,605 @@
+* {padding: 0; margin: 0;}
+
+.container {margin: auto;}
+
+/* ini css menu */
+* {padding: 0; margin: 0; color: black;}
+
+.logo img {width: 125px; 
+    height: 40px; 
+    float :left; 
+    margin : 20px 0 0 20px;
+}
+
+nav ul li  {float: left; 
+    list-style: none; 
+    margin: 20px 0 0 20px; 
+    background: white;
+}
+nav ul li a {margin-right: 15px;
+            text-decoration: none;
+            padding: 3px 15px;
+}
+
+nav ul li ul {display: none;}
+
+nav ul li:hover> ul {display: block;}
+
+nav {position: relative; 
+    height: 40px; 
+    line-height: 40px;
+}
+nav ul li ul {position: absolute;}
+
+nav ul li ul li {float: none; 
+    position: relative;
+    margin: 3px;
+}
+
+nav ul li:hover {background: white;}
+nav ul li a:hover {color: black;}
+
+nav ul ul ul {left: 100%; 
+    top: 0; 
+    width: 200px;
+}
+
+.logokanan .serch {float:right; 
+    margin: 30px 50px 0 0
+}
+.logokanan .instagram {float:right; 
+    margin: 30px 50px 0 0
+}
+.logokanan .google {float:right; 
+    margin: 30px 50px 0 0
+}
+.logokanan .fb {float:right; 
+    margin: 30px 50px 0 0
+}
+
+.logokanan .instagram:hover {
+    width: 20px; 
+    height: 20px; 
+    float: right;}
+
+
+
+.text-box{
+    background-image: url(images/pemandangan1.jpg);
+    width: 100%;
+    min-height: 100vh;
+    background-size:cover ;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-box h2{
+    width: 90%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    font-style: italic;
+}
+
+.text-box p {
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+}
+
+
+.blog12345{
+	margin-top: 50px;
+	position: relative;
+	margin-left: 120px;
+	width: 730px;
+	float: left;
+}
+
+.blog12345 .blog{
+	position: relative;
+	height: 600px;
+	padding-bottom: 100px;
+}
+
+.blog12345 .blog img{
+	width: 730px;
+	height: auto;
+}
+
+.blog .gambar{
+	position: relative;
+	
+}
+
+.blog12345 .blog .gambar h1{
+	position: absolute;
+	bottom: -4%;
+	left: 7%;
+	color : white;
+	font-size: 40px;
+	width: 80px;
+	height: 90px;
+	padding: 5px;
+	background-color: red;
+	text-align: center;
+	border-radius: 5px;
+	transition: background-color .5s;
+}
+
+.blog12345 .blog .gambar h1:hover{
+	background-color: white;
+	color: red;
+}
+
+.desk{
+	position: absolute;
+	margin-top: 40px;
+	padding-bottom: 100px;
+	margin-left: 48px;
+	width: 650px;
+}
+
+.desk a{
+	text-decoration: none;
+}
+
+.desk a h1{
+	transition: color .5s;
+}
+
+.desk a:hover h1{
+	color: red;
+}
+
+.desk h1{
+	font-size: 30px;
+	padding-bottom: 20px;
+	color: black;
+}
+
+.desk p{
+	color: rgb(70, 70, 70);
+	font-size: 18px;
+}
+
+.travel{
+	position: relative;
+	margin-top: 180px;
+	padding-bottom: 100px;
+	margin-left: 48px;
+	width: 650px;
+	float: left;
+}
+
+.travel a{
+	color: black;
+	transition: color .4s;
+}
+
+.travel a:hover{
+	color: red;
+}
+
+.travel .dalem{
+	float: left;
+	padding-right: 15px;
+	border-right-style: solid;
+	border-width: 1px;
+}
+
+.travel .comment{
+	margin-left: 160px;
+}
+
+.page {
+	margin-left: 300px;
+}
+
+.pageination a {
+	color: black;
+	float: left;
+	padding: 8px 16px;
+	text-decoration: none;
+	transition: background-color .3s;
+}
+
+
+.page a:hover:not(.active) {
+	background-color: #ddd;
+	color: red;
+}
+
+.kanan{
+	margin-left: 40px;
+	width: 100px;
+	float: left;
+}
+
+.kanan .sc{
+	width: 300px;
+	height: 100px;
+	padding: 28px;
+	background-color: #9e43c9;
+}
+
+.search {
+	width: 250px;
+	height: 50px;
+    border:0px solid #7c1d94;
+	border-radius: 5px;
+}
+
+.sc form .icoon {
+    position:relative;
+	width: 45px;
+	height: 50px;
+	border-radius:5px;
+    left:-4px;
+    border:2px solid #470099;
+    background-color:#6f1fca;
+    color:#fafafa;
+}
+
+.sc .icoon:hover  {
+    background-color:white;
+    color:#207cca;
+}
+
+.sc form .cari{
+	margin-top: 20px;
+	width: 300px;
+	height: 40px;
+	transition:.5s;
+	background-color: #470099;
+}
+
+.sc form .cari:hover{
+	background-color: white;
+}
+
+.ket{
+	margin-top: 30px;
+	width: 300px;
+	height: 500px;
+	padding: 28px;
+	background-color: #9e43c9;
+}
+
+.ket .judul{
+	font-size: 24px;
+	padding-bottom: 10px;
+	border-bottom:2px solid black;
+}
+
+.ket .isi p{
+	color: black;
+	font-size: 20px;
+	border-bottom: 1px solid black;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.ket .isi a:hover p{
+	color: white;
+}
+
+
+.rp{
+	margin-top: 30px;
+	width: 300px;
+	height: 470px;
+	padding: 28px;
+	background-color: #9e43c9;
+}
+
+.rp .judul{
+	font-size: 24px;
+	padding-bottom: 10px;
+	border-bottom:2px solid black;
+}
+
+.rp .isi{
+	padding-top: 40px;
+}
+
+.post{
+	width: 300px;
+	height: 100px;
+}
+
+.poto img{
+	float: left;
+}
+
+.kiripoto h1{
+	margin-top: 15px;
+	margin-left: 90px;
+	font-size: 20px;
+	position: absolute;
+}
+
+.kiripoto p{
+	position: absolute;
+	margin-top: 45px;
+	margin-left: 90px;
+}
+
+.kiripoto a:hover h1{
+	color: white;
+}
+
+
+.clouds{
+	margin-top: 30px;
+	width: 300px;
+	height: 240px;
+	padding: 28px;
+	background-color: #9e43c9;
+}
+
+.clouds .judul{
+	font-size: 24px;
+	padding-bottom: 10px;
+	border-bottom:2px solid black;
+}
+
+.clouds .isi{
+	margin-top: 40px;
+}
+
+.clouds button{
+	margin-top: 10px;
+	margin-right: 10px;
+	width: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: white;
+	color: black;
+	transition: background-color .5s;
+}
+
+.clouds button:hover{
+	color: rgb(0, 0, 0);
+	background-color: rgb(95, 95, 95);
+}
+
+.igf{
+	margin-top: 30px;
+	width: 300px;
+	height: 270px;
+	padding: 28px;
+	background-color: #9e43c9;
+}
+
+.igf .judul{
+	font-size: 24px;
+	padding-bottom: 10px;
+	border-bottom:2px solid black;
+}
+
+.ig .isi{
+	margin-top: 40px;
+}
+
+.igf .isi img{
+	width: 80px;
+	height: 80px;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+.igf .isi img:hover{
+	width: 100px;
+	height: 100px;
+
+}
+
+.subs{
+	margin-top: 30px;
+	width: 300px;
+	height: 270px;
+	padding: 28px;
+	background-color: #9e43c9;
+}
+
+.subs .judul{
+	font-size: 24px;
+	padding-bottom: 10px;
+	border-bottom:2px solid black;
+}
+
+.subs .isi{
+	margin-top: 40px;
+}
+
+.subs .isi .subscribe{
+	padding-left: 30px;
+	width: 250px;
+	height: 40px;
+}
+
+.subs .isi button{
+	background-color: #852cd8;
+	margin-top: 20px;
+	width: 285px;
+	height: 40px;
+	transition:.5s;
+}
+
+.subs .isi button:hover{
+	background-color: rgb(248, 248, 248);
+}
+
+.foot{
+    margin-top: 100px;
+    height: 570px;
+    width:100%;
+    background-color: #2b1141;
+    float: left;
+}
+               
+.ftravelo{
+    width: 240px;
+    color: gray;
+    padding-top: 100px;
+    padding-left: 100px;
+    float: left;
+    padding-right: 50px;
+}
+               
+.footatas{
+    padding-bottom: 50px;
+}
+               
+.footatas img{
+    width: 170px;
+}
+               
+.foottengah .text p{
+    margin-bottom: 20px;
+    font-size: 17px;
+    color: silver;
+    text-decoration: none;
+    list-style: none;
+}
+               
+.foottengah .link p{
+    margin-bottom: 20px;
+    font-size: 17px;
+    color: silver;
+    text-decoration: none;
+    list-style: none;
+    transition : color 1s;
+}
+               
+.foottengah .link p:hover{
+    margin-bottom: 20px;
+    font-size: 17px;
+    color: red;
+    text-decoration: none;
+    list-style: none;
+}
+               
+.logobawah img{
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    float: left;
+    margin-top: 29px;
+    margin-left: 15px;
+}
+               
+.company{
+    padding-top:110px;
+    margin-left: 50px;
+    padding-right: 30px;
+    float: left;
+}
+               
+.company h1{
+    color: white;
+    font-size: 26px;
+    margin-bottom: 50px;
+}
+               
+.company p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    list-style: none;
+    color: silver;
+}
+               
+.footpopular{
+    padding-top:110px;
+    margin-left: 50px;
+    float: left;
+}
+               
+.footpopular p{
+    text-decoration: none;
+    list-style: none;
+    color: silver;
+}
+               
+.footpopular .atas p{
+    color: white;
+    font-size: 26px;
+    margin-bottom: 50px;
+}
+               
+.footpopular .bkiri{
+    float: left;
+    padding-right: 50px;
+}
+               
+.footpopular .bkiri p{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+               
+.footpopular .bkanan{
+    float: left;
+}
+               
+.footpopular .bkanan p{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+               
+.ig{
+    padding-top:110px;
+    margin-left: 90px;
+    float: left;
+}
+               
+.ig p{
+    text-decoration: none;
+    list-style: none;
+    color: silver;
+}
+               
+.ig .igatas p {
+    color: white;
+    font-size: 26px;
+    margin-bottom: 50px;
+}
+               
+.ig img{
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    border-radius: 30px;
+}
+.copyright {
+    position: absolute;
+    display: block;
+    width: 1600px;
+    margin-top: 500px;
+    margin-left: 160px;
+    border-top: 2px solid black;
+   
+}
+   
+.copyright p {
+    color: white;
+    margin-top : 20px;
+    margin-left: 21%;
+    font-size: 18px;
+}
+   
+.copyright a {
+    margin-left: 5px;
+    text-decoration: none;
+    color: red;
+}
+
