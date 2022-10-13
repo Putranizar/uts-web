@@ -66,7 +66,7 @@ nav ul ul ul {left: 100%;
 
 .text-box{
     background-image: url(images/pemandangan1.jpg);
-    width: 100%;
+    width: 1900px;
     min-height: 100vh;
     background-size:cover ;
     position: relative;
@@ -207,7 +207,7 @@ nav ul ul ul {left: 100%;
 	float: left;
 	padding: 8px 16px;
 	text-decoration: none;
-	transition: background-color .3s;
+	transition:.3s;
 }
 
 
@@ -219,13 +219,15 @@ nav ul ul ul {left: 100%;
 .kanan{
 	margin-left: 40px;
 	width: 100px;
-	float: left;
+	float: right;
+	margin-right: 400px;
 }
 
 .kanan .sc{
 	width: 300px;
 	height: 100px;
 	padding: 28px;
+	margin-top: 50px;
 	background-color: #9e43c9;
 }
 
@@ -442,7 +444,7 @@ nav ul ul ul {left: 100%;
 .foot{
     margin-top: 100px;
     height: 570px;
-    width:100%;
+    width:1900px;
     background-color: #2b1141;
     float: left;
 }
